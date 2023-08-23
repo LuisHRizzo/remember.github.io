@@ -1,0 +1,72 @@
+
+body, html {
+    height: 100%;
+    font-family: 'Bai Jamjuree', sans-serif;
+    color: steelblue;
+}
+.top-scroll {
+    position: fixed; 
+    visibility: hidden; 
+    border-radius: 5px; 
+    z-index: 999; 
+    opacity: 0; 
+    bottom: 15px; 
+    right: 15px; 
+    width: 35px; 
+    height: 35px; 
+    text-align: center; 
+    line-height: 32px; 
+    font-size: 26px;
+}
+.top-scroll.fixed{
+    visibility: visible; 
+    opacity: 1;
+}
+.transition, .btn, .form-control, a, input, button{
+    transition: all 0.4s ease 0s; 
+    -moz-transition: all 0.4s ease 0s; 
+    -webkit-transition: all 0.4s ease 0s; 
+    -o-transition: all 0.4s ease 0s;}
+
+
+.vh-100 {
+    min-height: 100vh;
+}
+.banner{
+    color:black !important;
+    position: absolute;
+    bottom: 30%;
+    right: 10%;
+}
+.banner2{
+    position: absolute;
+    bottom: 25%;
+    right: 25%;
+}
+.with-separator {background-color: #ffffff; 
+    border-top: rgb(100, 100, 100); 
+    border-top-width: 3px; 
+    border-top-style: solid; 
+    border-bottom: rgb(100, 100, 100); 
+    border-bottom-width: 3px; 
+    border-bottom-style: solid;
+}
+
+.rounded-rect {
+    border-color: cadetblue;
+    background-color: cadetblue;
+    margin: 2em;
+    padding: 2em;
+    border-radius: 10px;
+    transition: transform 0.2s;
+}
+.rounded-rect:hover {
+    transform: scale(1.25);
+}
+.arrow-down {
+    font-size: 24px;
+    margin-top: 20px;
+}
+span{
+    font-weight: bolder;
+}
