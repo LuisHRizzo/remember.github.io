@@ -4,6 +4,9 @@ body, html {
     font-family: 'Bai Jamjuree', sans-serif;
     color: steelblue;
 }
+.titulo{
+    font-size: 60px;
+}
 .top-scroll {
     position: fixed; 
     visibility: hidden; 
@@ -29,8 +32,8 @@ body, html {
     -o-transition: all 0.4s ease 0s;}
 
 
-.vh-100 {
-    min-height: 100vh;
+.vh-70 {
+    min-height: 70vh;
 }
 .banner{
     color:black !important;
